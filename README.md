@@ -2,7 +2,8 @@
 Kafka Apps Intro(Individual)
 *by Michael Baumli*
 
-##Commands for Kafka
+##Commands for Kafka used in practice  
+
 *All done within Powershell in the kafka directory in the C drive*
 
 Window 1 - Run Zookeeper Service 
@@ -25,5 +26,5 @@ Window 5 - Run Kafka Consumer with messages from the beginning
 
 ```.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic crewdragon2-messages --from-beginning```
 
-## Unique Commands
+
 
